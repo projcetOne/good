@@ -1,6 +1,6 @@
 package com.example.op.repository;
 
-import com.example.qr.model.Book;
+import com.example.op.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

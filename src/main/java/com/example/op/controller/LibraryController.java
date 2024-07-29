@@ -1,12 +1,13 @@
 package com.example.op.controller;
 
-import com.example.qr.model.Author;
-import com.example.qr.model.Book;
-import com.example.qr.model.Member;
-import com.example.qr.model.request.AuthorCreationRequest;
-import com.example.qr.model.request.BookCreationRequest;
-import com.example.qr.model.request.MemberCreationRequest;
-import com.example.qr.service.LibraryService;
+
+import com.example.op.model.Author;
+import com.example.op.model.Book;
+import com.example.op.model.Member;
+import com.example.op.model.request.AuthorCreationRequest;
+import com.example.op.model.request.BookCreationRequest;
+import com.example.op.model.request.MemberCreationRequest;
+import com.example.op.service.LibraryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

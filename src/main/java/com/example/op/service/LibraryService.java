@@ -1,8 +1,15 @@
 package com.example.op.service;
 
-import com.example.qr.model.*;
-import com.example.qr.model.request.*;
-import com.example.qr.repository.*;
+
+import com.example.op.model.*;
+import com.example.op.model.request.AuthorCreationRequest;
+import com.example.op.model.request.BookCreationRequest;
+import com.example.op.model.request.BookLendRequest;
+import com.example.op.model.request.MemberCreationRequest;
+import com.example.op.repository.AuthorRepository;
+import com.example.op.repository.BookRepository;
+import com.example.op.repository.LendRepository;
+import com.example.op.repository.MemberRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
